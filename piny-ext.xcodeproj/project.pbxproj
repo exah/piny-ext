@@ -14,9 +14,9 @@
 		09B458272561CDFD00126D3B /* Piny Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 09B458262561CDFD00126D3B /* Piny Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		09B4582C2561CDFD00126D3B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B4582B2561CDFD00126D3B /* Cocoa.framework */; };
 		09B4582F2561CDFD00126D3B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4582E2561CDFD00126D3B /* SafariWebExtensionHandler.swift */; };
-		09CFFEC6256B1B7E003D6545 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 09CFFEBE256B1B7E003D6545 /* manifest.json */; };
-		09CFFED4256B1D0B003D6545 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 09CFFED3256B1D0B003D6545 /* src */; };
-		09CFFEDB256B1E2C003D6545 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 09CFFEDA256B1E2C003D6545 /* _locales */; };
+		09CFFF26256C73B5003D6545 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 09CFFF1D256C73B5003D6545 /* src */; };
+		09CFFF2D256C73B5003D6545 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 09CFFF24256C73B5003D6545 /* _locales */; };
+		09CFFF2E256C73B5003D6545 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 09CFFF25256C73B5003D6545 /* manifest.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +56,9 @@
 		09B4582E2561CDFD00126D3B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		09B458412561CDFD00126D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B458422561CDFD00126D3B /* safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = safari.entitlements; sourceTree = "<group>"; };
-		09CFFEBE256B1B7E003D6545 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = web/manifest.json; sourceTree = SOURCE_ROOT; };
-		09CFFED3256B1D0B003D6545 /* src */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = src; path = web/src; sourceTree = SOURCE_ROOT; };
-		09CFFEDA256B1E2C003D6545 /* _locales */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = _locales; path = web/_locales; sourceTree = SOURCE_ROOT; };
+		09CFFF1D256C73B5003D6545 /* src */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = src; path = web/src; sourceTree = SOURCE_ROOT; };
+		09CFFF24256C73B5003D6545 /* _locales */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = _locales; path = web/_locales; sourceTree = SOURCE_ROOT; };
+		09CFFF25256C73B5003D6545 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = web/manifest.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +134,9 @@
 		09CFFEB8256B1B6A003D6545 /* web */ = {
 			isa = PBXGroup;
 			children = (
-				09CFFEDA256B1E2C003D6545 /* _locales */,
-				09CFFED3256B1D0B003D6545 /* src */,
-				09CFFEBE256B1B7E003D6545 /* manifest.json */,
+				09CFFF24256C73B5003D6545 /* _locales */,
+				09CFFF25256C73B5003D6545 /* manifest.json */,
+				09CFFF1D256C73B5003D6545 /* src */,
 			);
 			name = web;
 			path = safari;
@@ -231,9 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CFFEDB256B1E2C003D6545 /* _locales in Resources */,
-				09CFFED4256B1D0B003D6545 /* src in Resources */,
-				09CFFEC6256B1B7E003D6545 /* manifest.json in Resources */,
+				09CFFF26256C73B5003D6545 /* src in Resources */,
+				09CFFF2D256C73B5003D6545 /* _locales in Resources */,
+				09CFFF2E256C73B5003D6545 /* manifest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
