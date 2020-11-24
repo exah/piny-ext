@@ -44,6 +44,7 @@
 
     fontFamily: font,
     fontSize: '1rem',
+    fontWeight: 400,
     lineHeight: 1.5,
 
     transition: `all ${fade}ms`,
@@ -57,6 +58,7 @@
 
   Object.assign(text.style, {
     font: 'inherit',
+    color: 'inherit',
     margin: 0,
     padding: 0,
   })
