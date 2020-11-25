@@ -25,10 +25,10 @@
   "browser_action": {
     "default_title": "__MSG_extension_action__",
     "default_icon": {
-      "16": "src/images/toolbar-icon-16.png",
-      "19": "src/images/toolbar-icon-19.png",
-      "32": "src/images/toolbar-icon-32.png",
-      "38": "src/images/toolbar-icon-38.png"
+      "16": "src/images/icon-toolbar-16.png",
+      "19": "src/images/icon-toolbar-19.png",
+      "32": "src/images/icon-toolbar-32.png",
+      "38": "src/images/icon-toolbar-38.png"
     }
   },
 
